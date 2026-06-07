@@ -96,6 +96,392 @@
   transition: color 0.8s ease;
 }
 
+.para p {
+  color: white;
+  text-align: left;
+  line-height: 1.7;
+  margin-bottom: 12px;
+}
+
+.para ul {
+  margin-top: 10px;
+  padding-left: 25px;
+  color: white;
+}
+
+.para li {
+  margin-bottom: 8px;
+  line-height: 1.6;
+}
+.btn1 {
+  font-size: 0.85rem;
+  font-weight: bold;
+  width: 12%;
+  height: 7%;
+  background-color: #00abf0;
+  border-radius: 0.5rem;
+}
+
+.btn2 {
+  font-size: 0.85rem;
+  font-weight: bold;
+  width: 12%;
+  height: 7%;
+  color: #00abf0;
+  border: 0.1rem solid #00abf0;
+  background-color: rgb(3, 3, 54);
+  border-radius: 0.5rem;
+}
+
+.social-icons{
+  display: flex;
+  gap: 1rem;
+  width: 2rem;
+  height: 2rem;
+}
+.allme {
+  display: flex;
+  font-size: 2rem;
+  gap: 1rem;
+}
+
+.about {
+  color: white;
+}
+
+.me {
+  color: #00abf0;
+}
+
+.container {
+  position: relative;
+  width: 25%;  /* Based on the largest child size */
+  height: 25%;
+
+}
+
+.pic {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  height: 80%;
+  width: 80%;
+  background-image: url(girl.jpeg);
+  border: 0.1rem solid #00abf0;
+  border-radius: 50%;
+  background-size: cover;
+  z-index: 1;
+}
+
+.circle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border: 0.1rem solid transparent;
+  border-bottom: 0.1rem solid #00abf0;
+  border-top: 0.1rem solid #00abf0;
+  border-radius: 50%;
+  animation: rotation 3s ease-in 0s infinite normal;
+  z-index: 2;
+}
+
+@keyframes rotation{
+    from{
+        transform:  rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.thirdmain, 
+.fourthmain,
+.fifthmain{
+  height: 100vh;
+  background-color: rgb(0, 0, 59);
+  /* background:url(wall.jpg); */
+  background-size: cover;
+  display: flex;
+  padding-top: 5%;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.myjourney {
+  height: 13%;
+  display: flex;
+  justify-content: center;
+  display: flex;
+  font-size: 2rem;
+  gap: 1rem;
+}
+
+.my {
+  color: white;
+}
+
+.journey {
+  color: #00abf0;
+}
+
+.eduski{
+  display: flex;
+  padding-left: 10%;
+}
+.Education{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 50%;
+  margin-bottom: 5%;
+}
+.Education h1{
+  text-decoration: underline;
+  color: white;
+  font-size: 2rem;
+}
+
+.Education h3,
+.Skills h3,
+.box5 h3,
+.box6 h3,
+.box7 h3,
+.box8 h3{
+  color: #00abf0;
+}
+
+.Education h4,
+.Skills h4,
+.box5 h4,
+.box6 h4,
+.box7 h4,
+.box8 h4{
+  color: white;
+}
+.Skills{
+    display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 50%;
+  margin-bottom: 5%;
+}
+.Skills h1{
+  text-decoration: underline;
+  color: white;
+  font-size: 2rem;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8{
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: 5rem;
+  width: 30rem;
+  border: 0.1rem solid #00abf0;
+  border-radius: 1rem;
+  background-color: transparent;
+  transition: background-color 0.4s ease;
+}
+
+.box4{
+    height: 30rem;
+  width: 30rem;
+}
+
+.boxex{
+  display: flex;
+  justify-content: space-evenly;
+}
+.box5,
+.box6,
+.box7,
+.box8{
+  height: 25rem;
+  width: 20%;
+}
+
+.box5 li,
+.box6 li,
+.box7 li,
+.box8 li{
+  color: #00abf0;
+}
+.box1:hover,
+.box2:hover,
+.box3:hover,
+.box4:hover,
+.box5:hover,
+.box6:hover,
+.box7:hover,
+.box8:hover {
+  background-color: rgba(0, 171, 240, 0.2);
+}
+
+/* .box5{
+    height: 28rem;
+  width: 80%;
+  margin-left: 8%;
+} */
+
+form{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.form1,
+.form2,
+.form3{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.input-block input {
+    width: 30rem;
+      height: 3rem;
+  border: 0.1rem solid #00abf0;
+  border-radius: 1rem;
+  padding: 1%;
+  margin-bottom: 15px;
+  background-color: transparent;
+  outline: none;
+  color: white;
+  font-size: 1.1rem;
+      transition: background-color 0.4s ease;
+}
+
+.form3 input{
+  width: 62rem;
+  height: 5rem;
+}
+.input-block input::placeholder {
+  color: white;   
+  opacity: 0.5;
+  font-size: 1.1rem;
+}
+.wrapper {
+  display: flex;
+  justify-content: center; /* Horizontally center */
+}
+
+.btn3 {
+  font-size: 0.85rem;
+  font-weight: bold;
+  width: 10rem;
+  height: 2rem;
+  background-color: #00abf0;
+  border-radius: 0.5rem;
+}
+.input-block input:hover{
+    background-color: rgba(0, 171, 240, 0.2);
+=======
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quicksand', sans-serif;
+  border: border-box;
+
+}
+
+.navbar {
+  background-color: rgb(38, 38, 49);
+  display: flex;
+  height: 2.0rem;
+  padding: 0.85rem;
+  text-align: center;
+  color: white;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar1 {
+  margin-left: 1.3rem;
+}
+
+.navbar2 {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.8rem;
+  flex: 1;
+  text-align: right;
+  flex-wrap: wrap;
+  padding-right: 10%;
+}
+
+.navbar2 a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+  transform: color 0.3s;
+}
+
+.navbar2 a:hover {
+  color: black;
+}
+
+
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar2 {
+    justify-content: flex-start;
+    gap: 1rem;
+    padding-top: 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar2 a {
+    font-size: 0.9rem;
+  }
+
+  .navbar1 {
+    font-size: 1rem;
+  }
+}
+
+.mainpart,
+.secmain {
+  height: 100vh;
+  background-color: rgb(3, 3, 54);
+  background-image: url(background.webp);
+  background-size: cover;
+  display: flex;
+  padding-top: 10%;
+  padding-left: 50%;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.myname {
+  font-size: 2.55rem;
+  color: white;
+}
+
+.me-as {
+  font-size: 2.00rem;
+  color: #00abf0;
+  -webkit-text-stroke: 0.05rem white;
+}
+
+.me-as:hover {
+  color: #ff6f61;
+  transition: color 0.8s ease;
+}
+
 /* .para{
   border: 0.1rem solid white;
   padding: 0.85rem;
@@ -376,4 +762,155 @@ form{
 }
 .input-block input:hover{
     background-color: rgba(0, 171, 240, 0.2);
+}
+
+/* ==========================================
+   RESPONSIVE DESIGN
+   ========================================== */
+
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+/* Tablet */
+@media screen and (max-width: 1024px) {
+
+  .mainpart,
+  .secmain {
+    padding-left: 30%;
+    padding-right: 2rem;
+  }
+
+  .eduski {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .box5,
+  .box6,
+  .box7,
+  .box8 {
+    width: 45%;
+  }
+
+  .input-block input {
+    width: 100%;
+  }
+
+  .form3 input {
+    width: 100%;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+    padding-bottom: 1rem;
+  }
+
+  .navbar2 {
+    justify-content: flex-start;
+    padding-right: 0;
+    gap: 1rem;
+    margin-top: 0.5rem;
+  }
+
+  .mainpart,
+  .secmain {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 8rem;
+    row-gap: 1rem;
+  }
+
+  .myname {
+    font-size: 2rem;
+  }
+
+  .me-as {
+    font-size: 1.5rem;
+  }
+
+  .eduski {
+    flex-direction: column;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .Education,
+  .Skills {
+    width: 100%;
+  }
+
+  .box1,
+  .box2,
+  .box3,
+  .box4 {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .boxex {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .box5,
+  .box6,
+  .box7,
+  .box8 {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .form1,
+  .form2,
+  .form3 {
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+  }
+
+  .input-block {
+    width: 100%;
+  }
+
+  .input-block input,
+  .form3 input {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+/* Small Mobile */
+@media screen and (max-width: 480px) {
+
+  .navbar1 h3 {
+    font-size: 1rem;
+  }
+
+  .navbar2 a {
+    font-size: 0.9rem;
+  }
+
+  .myname {
+    font-size: 1.7rem;
+  }
+
+  .me-as {
+    font-size: 1.2rem;
+  }
+
+  .allme,
+  .myjourney {
+    font-size: 1.5rem;
+  }
 }
