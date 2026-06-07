@@ -1,14 +1,33 @@
 # Portfolio Website
 
-A personal portfolio website showcasing my projects, skills, and contact information.
+A personal portfolio website showcasing my projects, skills, education, and contact information.
+
+## Live Demo
+
+🔗 Portfolio: https://portfolio-website-snowy-eight-85.vercel.app
+
+## GitHub Repository
+
+🔗 Repository: https://github.com/Mahak-agrawal05/portfolio-website
 
 ## Tech Stack
-- HTML
-- CSS
-- JavaScript
+
+* HTML5
+* CSS3
+* JavaScript
 
 ## Features
-- Responsive design
-- Project showcase
-- About section
-- Contact section
+
+* Responsive Design
+* About Me Section
+* Education & Skills
+* Project Showcase
+* Contact Section
+* Social Media Integration
+
+## Author
+
+**Mahak Agrawal**
+
+* GitHub: https://github.com/Mahak-agrawal05
+* LinkedIn: https://www.linkedin.com/in/mahak-agrawal-109869324/
